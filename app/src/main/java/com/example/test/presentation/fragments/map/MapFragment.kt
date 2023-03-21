@@ -71,14 +71,8 @@ class MapFragment : BaseFragment<MapViewModel,FragmentMapBinding>(R.layout.fragm
         clickFindMe()
         editText()
         responseCallback()
-        cleanButtonClick()
     }
 
-    private fun cleanButtonClick() {
-        binding.clearRv.setOnClickListener {
-            binding.rvMap.visibility = View.GONE
-        }
-    }
 
 
     private fun findMe() {
@@ -131,6 +125,7 @@ class MapFragment : BaseFragment<MapViewModel,FragmentMapBinding>(R.layout.fragm
 
     fun clickPosition(model: RecyclerModel) {
         mapUIEntity.location = model.name
+        binding.rvMap.visibility = View.GONE
         model.point?.let { moveCamera(it) }
     }
 
