@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Ruble">Российский рубль</string>
+    <string name="update">Update</string>
+    <string name="usd">USD</string>
+    <string name="search">search</string>
+    <string name="internet_status">Internet status:</string>
+    <string name="next_fragment">Next</string>
+    <string name="available">Available</string>
+    <string name="unavailable">Unavailable</string>
+    <string name="lost">Lost</string>
+    <string name="losing">Losing</string>
+    <string name="local_data">Local data</string>
+    <string name="remote_data">Remote data</string>
+    <string name="last_sign">Last session:</string>
+    <string name="open_map">Open Map</string>
+
+</resources>
