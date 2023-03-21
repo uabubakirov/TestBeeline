@@ -16,5 +16,5 @@ data class CurrencyDBEntity(
     val lastSign: String?
 )
 
-fun CurrencyDBEntity.toUI() = CurrencyUI(date,value,lastSign)
+fun CurrencyDBEntity.toUI() = CurrencyUI(value,date,lastSign)
 
